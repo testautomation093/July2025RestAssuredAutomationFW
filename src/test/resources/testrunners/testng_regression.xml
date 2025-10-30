@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="API Regression Suite" thread-count="1" verbose="4">
+
+	<!--<test name="Go Rest Get API Test">
+		<parameter name="baseURI" value="https://gorest.co.in" />
+
+		<classes>
+			<class name="com.qa.gorest.tests.GetUserTest" />
+
+		</classes>
+	</test>
+
+	<test name="Go Rest Create API Test">
+		<parameter name="baseURI" value="https://gorest.co.in" />
+
+		<classes>
+			<class name="com.qa.gorest.tests.CreateUserTest" />
+
+		</classes>
+	</test>
+	
+		<test name="Fake Store Product API Test">
+		<parameter name="baseURI" value="https://fakestoreapi.com" />
+
+		<classes>
+			<class name="com.qa.gorest.tests.GetProductAPITest" />
+
+		</classes>
+	</test>
+
+	<test name="Req Response API Test">
+		<parameter name="baseURI" value="https://reqres.in" />
+
+		<classes>
+			<class name="com.qa.gorest.tests.ReqResAPITest" />
+
+		</classes>
+	</test>-->
+	
+		<test name="Schema Validation API Test">
+		<parameter name="baseURI" value="https://gorest.co.in" />
+
+		<classes>
+			<class name="com.qa.gorest.tests.APISchemaValidationTest" />
+
+		</classes>
+	</test>
+
+
+	<!--<test name="Amadeus API Test">
+		<parameter name="baseURI" value="https://test.api.amadeus.com/" />
+		<parameter name="grantType" value="client_credentials" />
+		<parameter name="clientId" value="ZZz9cIK87LwzxcW5K9Ae8TKDDcSHqWX4" />
+		<parameter name="clientSecret" value="LDDxRGUeA4ExrTPn" />
+
+
+		<classes>
+			<class name="com.qa.gorest.tests.AmadeusAPITest" />
+
+		</classes>
+	</test>-->
+
+
+</suite>	
