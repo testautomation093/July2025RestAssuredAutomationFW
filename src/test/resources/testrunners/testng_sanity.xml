@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="API Sanity Suite" thread-count="1" verbose="4">
+
+	<test name="Go Rest Get API Test">
+		<parameter name="baseURI" value="https://gorest.co.in" />
+
+		<classes>
+			<class name="com.qa.gorest.tests.GetUserTest" />
+
+		</classes>
+	</test>
+
+	<test name="Go Rest Create API Test">
+		<parameter name="baseURI" value="https://gorest.co.in" />
+
+		<classes>
+			<class name="com.qa.gorest.tests.CreateUserTest" />
+
+		</classes>
+	</test>
+
+
+</suite>	
