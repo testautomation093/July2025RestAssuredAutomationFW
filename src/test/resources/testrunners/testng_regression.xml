@@ -49,7 +49,7 @@
 	</test>
 
 
-<!--	<test name="Amadeus API Test">
+	<test name="Amadeus API Test">
 		<parameter name="baseURI" value="https://test.api.amadeus.com/" />
 		<parameter name="grantType" value="client_credentials" />
 		<parameter name="clientId" value="ZZz9cIK87LwzxcW5K9Ae8TKDDcSHqWX4" />
@@ -62,5 +62,5 @@
 		</classes>
 	</test>
 
--->
+
 </suite>	
