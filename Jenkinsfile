@@ -76,7 +76,7 @@ pipeline
             }
         }
         
-        stage('Publish Allure Reports') {
+        stage('Publish Allure Reports for Sanity Env') {
            steps {
                 script {
                     allure([
