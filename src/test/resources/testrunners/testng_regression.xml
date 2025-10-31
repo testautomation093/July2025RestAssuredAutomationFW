@@ -3,7 +3,7 @@
 
 <suite name="API Regression Suite" thread-count="1" verbose="4">
 
-	<!--<test name="Go Rest Get API Test">
+	<test name="Go Rest Get API Test">
 		<parameter name="baseURI" value="https://gorest.co.in" />
 
 		<classes>
@@ -37,7 +37,7 @@
 			<class name="com.qa.gorest.tests.ReqResAPITest" />
 
 		</classes>
-	</test>-->
+	</test>
 	
 		<test name="Schema Validation API Test">
 		<parameter name="baseURI" value="https://gorest.co.in" />
@@ -49,7 +49,7 @@
 	</test>
 
 
-	<!--<test name="Amadeus API Test">
+	<test name="Amadeus API Test">
 		<parameter name="baseURI" value="https://test.api.amadeus.com/" />
 		<parameter name="grantType" value="client_credentials" />
 		<parameter name="clientId" value="ZZz9cIK87LwzxcW5K9Ae8TKDDcSHqWX4" />
@@ -60,7 +60,7 @@
 			<class name="com.qa.gorest.tests.AmadeusAPITest" />
 
 		</classes>
-	</test>-->
+	</test>
 
 
 </suite>	
